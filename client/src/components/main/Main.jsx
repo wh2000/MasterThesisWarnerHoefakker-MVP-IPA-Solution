@@ -150,7 +150,7 @@ const Main = () => {
   return (
     <div className="main">
       <div className="nav">
-        <img src={assets.kpmg} className="kpmg" alt="" />
+        <img src={assets.bigfour} className="bigfour" alt="" />
       </div>
       <div className="main-container">
       {!showResults ? (
@@ -395,7 +395,7 @@ export default Main;
 //   return (
 //     <div className="main">
 //       <div className="nav">
-//         <img src={assets.kpmg} className="kpmg" alt="" />
+//         <img src={assets.bigfour} className="bigfour" alt="" />
 //       </div>
 //       <div className="main-container">
 //         {!showResults ? (
