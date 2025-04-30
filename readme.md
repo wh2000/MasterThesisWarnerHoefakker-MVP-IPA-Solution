@@ -16,5 +16,3 @@ This project demonstrates a **Minimum Viable Product (MVP)** of an **Intelligent
 - Natural Language Processing (NLP)
 
 The core objective is to **automate repetitive IT audit tasks** (e.g., access control testing, policy verification, evidence analysis) while maintaining human-in-the-loop oversight.
-
----To run, type `./run.sh` in the command line.
