@@ -1,0 +1,1 @@
+To run, type `./run.sh` in the command line.

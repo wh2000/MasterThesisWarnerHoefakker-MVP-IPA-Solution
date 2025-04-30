@@ -1,0 +1,124 @@
+
+  {
+      "prompt": {
+              "prompt": "Experts have told the BBC that the current Covid surge in China is 'unlikely' to impact India, but they urged people to stay cautious and wear masks. India has stepped up surveillance after a spike in cases in neighboring China. People traveling from China and four other Asian countries now have to produce a Covid-19 negative test report before entering India. On Tuesday, drills were held to check if hospitals could handle a surge. According to government data, India currently has only around 3,400 active coronavirus cases. But reports of the surge in China and the memories of two deadly Covid waves in 2020 and 2021 in India have made many people fearful."
+      },
+      "comments": [
+          {
+              "attribute": "sentiment",
+              "value": "negative",
+              "explanation": "Experts say that there is a risk of impact on India. The prompt disagrees.",
+              "span": [[24, 54], [133, 160], [339, 368]],
+              "confidence": 0.95
+          },
+          {
+              "attribute": "sentiment",
+              "value": "positive",
+              "explanation": "Experts say that there is a risk of impact on India. The prompt disagrees.",
+              "span": [[55, 81]],
+              "confidence": 0.95
+          },
+          {
+              "attribute": "sentiment",
+              "value": "positive",
+              "explanation": "Experts say that there is a risk of impact on India. The prompt disagrees.",
+              "span": [[133, 160]],
+              "confidence": 0.85
+          },
+          {
+              "attribute": "sentiment",
+              "value": "negative",
+              "explanation": "Experts say that there is a risk of impact on India. The prompt disagrees.",
+              "span": [[495, 527]],
+              "confidence": 0.95
+          },
+          {
+            "attribute": "mindset",
+            "value": {
+                "attribute": "critical",
+                "value": 0.7
+            },
+            "explanation": "Experts say that there is a risk of impact on India. The prompt disagrees.",
+            "span": [[495, 527]],
+            "confidence": 0.95
+          },
+          {
+              "attribute": "mindset",
+              "value": {
+                "attribute": "disempowered",
+                "value": 0.4
+              },
+              "explanation": "Experts say that there is a risk of impact on India. The prompt disagrees.",
+              "span": [[0, 527]],
+              "confidence": 0.65
+          },
+          {
+              "attribute": "unsaid",
+              "value": 1,
+              "explanation": "The conduct of drills to test hospital readiness suggests a defensive mindset aimed at protecting against potential threats. While preparation is generally positive, the context implies it's more about defense than about improving or optimizing processes proactively.",
+              "span": [[35, 52]],
+              "confidence": 0.8
+          },
+          {
+              "attribute": "unsaid",
+              "value": 1,
+              "explanation": "India may have stepped up surveillance due to an increase in cases across Asia. Not mentioned in the prompt.",
+              "span": [[151, 230]],
+              "confidence": 0.9
+          },
+          {
+              "attribute": "personality traits",
+              "value": {
+                "attribute": "neuroticism",
+                "value": 0.1
+              },
+              "explanation": "Experts say that there is a risk of impact on India. The prompt disagrees.",
+              "span": [[0, 93]],
+              "confidence": 0.7
+          },
+          {
+              "attribute": "personality traits",
+              "value": {
+                "attribute": "agreeableness",
+                "value": 0.6
+              },
+              "explanation": "Drills are conducted routinely. Not mentioned in the prompt.",
+              "span": [[368, 440]],
+              "confidence": 0.8
+          },
+          {
+              "attribute": "cognitive bias",
+              "value": {
+                "attribute": "Confirmation Bias",
+                "value": 0.4
+              },
+              "explanation": "People are fearful due to the impact of Covid on the economy. Not mentioned in the prompt.",
+              "span": [[639, 668]],
+              "confidence": 0.4
+          },
+          {
+              "attribute": "cognitive bias",
+              "value": {
+                "attribute": "Confirmation Bias",
+                "value": 0.4
+              },
+              "explanation": "People are fearful due to increased surveillance. Not mentioned in the prompt.",
+              "span": [[151, 230]],
+              "confidence": 0.5
+          },
+          {
+            "attribute": "language bias",
+            "value": 1.0,
+            "explanation": "People are fearful due to increased surveillance. Not mentioned in the prompt.",
+            "span": [[20, 42]], 
+            "confidence": 0.8 
+          },
+          {
+            "attribute": "language bias",
+            "value": 1.0,
+            "explanation": "People are fearful due to increased surveillance. Not mentioned in the prompt.",
+            "span": [[56, 68]], 
+            "confidence": 0.8 
+          }
+      ]
+  }

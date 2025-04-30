@@ -1,0 +1,22 @@
+{
+  "name": "what-is-not-said",
+  "version": "1.0.0",
+  "description": "NLP",
+  "scripts": {
+    "fix": "cd server && echo 'Fixing the server eslint' && yarn fix && echo 'Fixing the client eslint' && cd ../client && yarn fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WarnerHoefakker/What-is-not-said"
+  },
+  "keywords": [
+    "liveresearch",
+    "lr"
+  ],
+  "author": "Warner Hoefakker",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.7.2",
+    "react-contenteditable": "^3.3.3"
+  }
+}

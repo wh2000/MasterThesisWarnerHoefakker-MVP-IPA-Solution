@@ -1,0 +1,136 @@
+.commentbar {
+	min-height: 100vh;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+  border-left: lightgrey .1em solid;
+	padding: 1px 1px;
+  max-width: 560px;
+}
+
+.no-category-message {
+  margin-top: 18em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-weight: bold; */
+  font-size: larger;
+  font-style: italic;
+}
+
+.commentbar .top{
+    margin-top: 15px;
+}
+.commentbar img {
+	width: 5px;
+}
+.commentbar .menu {
+	display: block;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.commentbar .new-chat{
+ margin-top: 50px;
+ display: inline-flex;
+ align-items: center;
+ gap: 10px;
+ padding: 10px 15px;
+ background-color: #ffffff;
+ border-radius: 15px;
+ font-size: 14px;
+ color: ffffff;
+ cursor: pointer;
+}
+.commentbar .recent{
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 2.0s;
+}
+.commentbar .recent-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #e2e6eb;
+
+}
+.commentbar .recent-entry{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 12px;
+    color: #e2e6eb;
+    cursor: pointer;
+
+}
+.commentbar .recent-entry:hover{
+    background-color: #FFFFFF;
+    color: #083A6B;
+}
+.commentbar .bottom{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.commentbar .bottom-item{
+    padding-right: 10px;
+    /* margin-bottom: 30px; */
+    cursor: pointer;
+}
+  
+ .extended-content .commentbar-body {
+    flex: 5; 
+    padding: 0px 25px ; 
+  }
+  
+  .extended-content .commentbar-menu {
+    padding: 10px;
+  }
+  
+  .extended-content .commentbar-menu ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+  }
+  
+  .extended-content .commentbar-menu li {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: 10px 5px;
+  }
+
+  .extended-content .commentbar-menu li:hover {
+    background-color: rgb(211, 211, 211); /* Change this to your desired hover color */
+    border-radius: 3px;
+  }
+
+  .extended-content .commentbar-content .category {
+    background-color: #f0f0f0;
+    /* max-height: 200px; */
+    padding: 2px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+  }
+
+  .extended-content .commentbar-content .category p {
+    padding: 7px; /* Padding around the content */
+    text-align: justify;
+  }
+  
+  .extended-content .commentbar-menu a {
+    font-style: bold;
+    display: block; 
+    padding: 5px 10px;
+    text-decoration: none; 
+    color: #333; 
+  }
+  
+
+
+@media (max-width:600px){
+    .commentbar{
+        display: none;
+    }
+}

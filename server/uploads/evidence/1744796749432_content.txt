@@ -1,0 +1,131 @@
+
+
+--- Text from Page 1, Image 1 ---
+ITSM Service Desk
+Service project
+
+®) Queues
+QD Service requests
+A incidents
+@ Problems
+2 Changes
+‘OPERATIONS
+
+“0
+
+<3 Services
+
+Q Alerts
+
+& on-call
+
+KNOWLEDGE
+
+© Knowledge base
+
+Reports
+CHANNELS & PEOPLE
+@ Channels
+
+Pa
+2) Customers
+
+Invite team
+
+% Project settings
+
+4 JiraService Management — Your work Projects ~ Filters v Dashboards v People v Plans » Apps ~
+
+Projects / @ ITSM Service Desk / 9 ITSM-1326
+
+Upgrade Banc.ly
+
+Add Form
+
+Create subtask  @ Linkissue v
+
+© Darrel DevManager raised this request via Portal
+
+View request in portal
+
+Description
+
+Upgrade Banc.ly to current version
+
+Priority
+
+4 Highest
+
+Change type
+Standard
+
+Change risk
+
+Critical
+
+Affected services
+
+Bane.ly
+
+Impact
+
+Significant / Large
+
+Urgency
+
+High
+
+Change reason
+
+Upgrade
+
+Implementation plan
+
+See Confluence page below
+
+Hide details
+
+Completed
+
+LINKED ASSETS
+
+5 Bancily
+
+Assignee
+
+© ante Developer
+
+Reporter
+
+@ are! DevManager
+
+Approvers
+@ Christy ChangeManager ©@ Dante Developer
+
+@ Darrel DevManager @ Polly ProductManager
+@ Sammy ServiceDeskAgent
+© Sandeep ServiceOwner
+
+@ Serena ServiceDeskMana...
+
+Request Type
+
+SS Request a change
+
+‘Automation
+
+Y Rule executions
+
+AWS Service Catalog
+
+aWS Open Requested Product
+
+Zoom
+
+Open Zoom
+
+¥ Show 6 more fields
+Organizations, Request participants, Components, Time track...
+
+So ow
+

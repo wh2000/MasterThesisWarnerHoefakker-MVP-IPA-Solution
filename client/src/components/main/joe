@@ -1,0 +1,304 @@
+ 
+.main{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative;
+}
+.main .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #083A6B;
+}
+
+.main .nav .kpmg{
+    width: 6em;
+}
+
+.main-container{
+    max-width: 900px;
+    margin: auto;
+}
+.main-container .greet{
+    margin-top: 90px;
+    font-size: 49px;
+    color:#c4c7c5;
+    font-weight: 500px;
+}
+
+.main .greet span{
+    font-size: 60px;
+    background: -webkit-linear-gradient(16deg,#083A6B, #5F3F91);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    gap: 15px;
+}
+.main .card{
+    height: 200px;
+    padding: 15px;
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.main .card img{
+    width: 35px;
+    padding: 5px;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 10px;
+    right: 10px;
+    background: white;
+}
+.main .card p{
+    color: #585858;
+    font-size: 17px;
+}
+.main .card:hover{
+    background-color: #dfe4ea;
+}
+.main-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 900px;
+    padding: 0px 20px;
+    margin: auto;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #BFCCD9;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.search-box img{
+    width: 24px;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between elements */
+    background-color: #BFCCD9;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+    color: #083A6B;
+}
+
+.subject-input {
+    flex: 1; /* Take 1 part of the space (1/3 of the total space) */
+    max-width: 25%; /* Ensure it doesn't expand beyond 1/3 */
+}
+
+.question-input {
+    flex: 2; /* Take 2 parts of the space (2/3 of the total space) */
+    max-width: 75%; /* Ensure it doesn't expand beyond 2/3 */
+}
+
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.main .bottom-info{
+    font-size: 13px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+    color: #083A6B;
+}
+.result{
+    padding: 0px 5%;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+.result::-webkit-scrollbar{
+    display: none;
+}
+.result-title{
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+}
+.result img{
+    width: 40px;
+    border-radius: 50px;
+    margin-bottom: 1em;
+}
+
+.loader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loader hr{
+    border-radius: 4px;
+    border: none;
+    background-color: #f6f7f8;
+    background: linear-gradient(to right, #083A6B, #5F3F91);
+    background-size: 800px 50px;
+    height: 20px;
+    animation: loader 4s infinite linear;
+}
+
+@keyframes loader{
+    0%{
+        background-position: -800px 0px;
+
+    }
+    100%{
+        background-position: 800px 0px;
+    }
+}
+
+.file-names-box {
+    background-color: #f0f4f9;  /* Light background */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #083A6B;
+    /* Optional: Add shadow for better separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.result-data {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    gap: 5px;  /* Add space between the boxes */
+    align-items: flex-start;  /* Align content to the start (left) */
+}
+
+/* Emphasize specific text (like Policy Requirement, etc.) */
+.result-data p strong {
+    font-weight: bold; /* Make the text bold */
+    color: #083A6B; /* Change text color to blue for emphasis */
+}
+
+/* Enhance the overall readability of the paragraphs */
+.result-data p {
+    white-space: pre-line; /* Ensure line breaks are respected */
+    line-height: 1.8; /* Makes the text more readable */
+    overflow-wrap: break-word; /* Ensures long words break properly */
+    text-align: justify; /* Justifies the text */
+    margin-bottom: .1em; /* Adds space between paragraphs */
+    font-size: 1em; /* Ensures consistent font size */
+    color: #333; /* Adds neutral color for better text visibility */
+}
+
+/* If you want to specifically target and style individual pieces like 'Policy Requirement' */
+.result-data p .policy-requirement {
+    font-weight: bold;
+    color: #5F3F91; /* You can set a different color for policy requirements */
+}
+
+/* Optionally add some spacing or adjust font size for the gaps and recommendations */
+.result-data h3 {
+    font-size: 1.2em; /* Slightly larger font size for headings */
+    margin-top: .1em; /* Adds spacing between sections */
+}
+
+/* If necessary, apply styles to the overall result container for a clean look */
+.result-data {
+    padding: 15px; /* Adds padding around the result container */
+    background-color: #d7e0e7; /* Light background for the result box */
+    border-radius: 8px; /* Rounded corners for smooth edges */
+}
+
+.divider-line {
+    width: 0.15em; /* Full width within the container */
+    height: 2em; /* Thin line */
+    background-color: #083A6B; /* Matches the theme color */
+    margin: 5px 0; /* Spacing above and below the line */
+    opacity: 0.5; /* Light transparency for a subtle look */
+}
+
+/* --------------- */
+
+/* .audit-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  } */
+
+  h3 {
+    margin-bottom: 5px; /* Reduce space below h3 */
+  }  
+  
+  h2 {
+    margin-bottom: -50px; /* Reduce space below h3 */
+  }  
+  
+  .section-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 20px;
+  }
+  
+  .conclusion {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #d35400;
+    margin-top: 10px;
+  }
+  
+  .matches {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: -40px; 
+  }
+  
+  .mismatches {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #c0392b;
+    margin-bottom: -40px; 
+  }
+  
+  .policy {
+    font-style: italic;
+    font-weight: 300;
+    color: #2980b9;
+  }
+  
+  .evidence {
+    font-style: italic;
+    font-weight: 300;
+    color: #8e44ad;
+  }
+  
+  .analysis {
+    font-style: italic;
+    color: #e67e22;
+  }
